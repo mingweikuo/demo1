@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2021年11月17日, 下午9:24:55
+    Author     : Wilson
+*/
+
+#Header{
+    width: 820px;
+    height: 60px;   
+    line-height: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#Sidebar{
+    width: 120px;
+    height: 540px;
+    line-height: 10px;
+    text-align: left;  
+    font-size: 20px;
+    float: left;
+}
+#Body{
+    width: 800px;
+    height: 540px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: left;
+    float: left;
+    padding-left: 80px;
+}
+#Footer{
+    clear: both;
+    width: 820px;
+    height: 120px;
+    line-height: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}

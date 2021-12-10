@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>註冊會員</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src ="../jsFiles/enrollCheck.js"></script>
+    </head>
+    
+    <body>
+        <h1>註冊訊息</h1>
+        
+        <form  name="memberData">
+        
+            <div>
+                <label id="forLabelName">帳號:</label>
+                <input type ="text" id ="inputName" onblur ="checkName()"><output id ="outputName"></output>
+            
+                <label id="forLabelPassword">密碼:</label>
+                <input type ="password" id="inputPw" onblur="checkPw()"><output id ="outputPw"></output>
+            </div>
+            
+            <div>
+                <label id="forLabelname">姓名:</label>
+                <input type ="text" id ="name" size="10" maxlength="10"><br>
+            
+                <label id="forLabelSex">性別:</label>
+                <input type ="radio" id ="men" name ="sex" value ="men">男
+                <input type ="radio" id ="women" name ="sex" value ="women">女<br>
+            
+                <label id="forLabelBirth">出生日期:</label>
+                <input type ="date" id ="birthday" name ="birthday"><br>
+            
+                <label id="forLabelEmail">電子郵件:</label>
+                <input type ="email" id="inputMail" onblur ="checkMail()"><output id ="outputMail"></output><br>
+            </div>
+            
+            <div>
+                <input type ="button" value="確定" onclick="enrollCheck()">
+                <input type ="button" value="取消" 
+                   onclick ="window.location.href ='../index.html'">
+            </div>
+        </form>
+        
+    </body>
+</html>

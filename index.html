@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>鞋天地</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type ="text/css" href="cssFiles/index.css">
+        <script src ="jsFiles/index.js"></script>        
+    </head>
+    
+    <body>
+        <div id="Header">
+            <p>歡迎來到鞋天地</p>        
+        </div>
+        
+        <div id="Sidebar">
+            <p><img src="otherFiles/list.png" alt="list" width="40" height="40">    類型</p>
+            
+            
+            <p><img src ="otherFiles/basketball.png" alt="basketball" width="30" height="30">
+               <input type ="button" value ="籃球" style ="width: 120px; height: 40px; font-size: 20px" 
+                      onclick ="window.location.href ='htmlFiles/shoes/basketball.html'"/></p>
+            
+            <p><img src ="otherFiles/soccer.png" alt="soccer" width="30" height="30">
+               <input type ="button" value ="足球" style ="width: 120px; height: 40px; font-size: 20px" 
+                   onclick ="window.location.href ='htmlFiles/shoes/soccer.html'"></p>
+            
+            <p><img src ="otherFiles/golf.png" alt="golf" width="30" height="30">
+               <input type ="button" value ="高爾夫" style ="width: 120px; height: 40px; font-size: 20px" 
+                   onclick ="window.location.href ='htmlFiles/shoes/golf.html'"></p>
+            
+            <p><img src ="otherFiles/jog.png" alt="jog" width="30" height="30">
+               <input type ="button" value ="慢跑" style ="width: 120px; height: 40px; font-size: 20px" 
+                      onclick ="window.location.href ='htmlFiles/shoes/jog.html'"></p>
+            
+            <p><img src ="otherFiles/fashion.png" alt="fashion" width="30" height="30">
+               <input type ="button" value ="流行" style ="width: 120px; height: 40px; font-size: 20px" 
+                      onclick ="window.location.href ='htmlFiles/shoes/fashion.html'"></p>
+            
+        </div>
+        
+        
+        <div id="Body" style="position: relative;top: 10px">
+            <p>熱門商品</p>
+            <p>
+                <input type ="button" id ="btnPrev" value ="Prev" onclick ="prevImg()"
+                    style="height: 60px; width: 60px; font-size: 20px;
+                    background-color: transparent;
+                    position: absolute; left: 40px; top: 300px;">
+                <img id ="mainImg"  src ="otherFiles/basketballshoes2.jpg" alt="popular" 
+                    style ="width: 400px; height: 400px; position: absolute; left: 100px; top: 100px;" 
+                    border ="0">
+                <input type ="button" id ="btnNext" value ="Next" onclick ="nextImg()"
+                    style="height: 60px; width: 60px; font-size: 20px;
+                    background-color: transparent;
+                    position: absolute; left: 600px; top: 300px;">
+            </p>
+        </div>
+        
+        <div id="Footer">
+            
+            <p><img src="otherFiles/more.png" alt="more" width="30" height="30"> 更多</p>
+            
+            <input type ="button" id ="indexLogin" value ="會員登入" style ="width: 100px; height: 40px; font-size: 20px" 
+                   onclick ="window.location.href ='htmlFiles/login.html'">
+            <input type ="button" value ="註冊會員" style ="width: 100px; height: 40px; font-size: 20px" 
+                   onclick ="window.location.href ='htmlFiles/enroll.html'">
+            <input type ="button" value ="聯絡我們" style ="width: 100px; height: 40px; font-size: 20px" 
+                   onclick ="window.location.href ='htmlFiles/contactUs.html'">
+            
+        </div>
+    </body>
+</html>
