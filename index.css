@@ -7,6 +7,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : Wilson
 */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #Header{
     width: 820px;
     height: 60px;   
